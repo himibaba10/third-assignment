@@ -84,6 +84,3 @@ function megaFriend(arr) {
     }
     return largest;
 }
-var arr1 = ["Himel", "Rimel", "Porinita", "Shemanto", "gulumuluta"];
-var result = megaFriend(arr1);
-console.log(result);
