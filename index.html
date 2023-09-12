@@ -139,27 +139,34 @@
     <main>
       <section class="xl:container mx-auto px-3.5 lg:px-10 my-5 sm:my-7">
         <div
-          class="banner-img bg-center text-white flex flex-col items-center rounded-lg pt-14 pb-24 md:pt-20 md:pb-52 text-center"
+          class="bg-[url('./images/banner1.png')] bg-cover relative bg-center rounded-lg overflow-hidden"
         >
-          <h1
-            class="max-w-2xl text-4xl sm:text-5xl md:text-7xl font-extralight"
+          <div class="absolute bg-black/40 w-full h-full"></div>
+          <div
+            class="relative flex flex-col items-center pt-14 pb-24 md:pt-20 md:pb-52 text-white text-center"
           >
-            Exotic tastes at your doorstep
-          </h1>
-          <span class="mt-6 mb-8 text-lg md:text-xl font-medium"
-            >We supply highly quality organic products</span
-          >
-          <button
-            class="btn bg-primary text-white border-none hover:bg-red-600"
-          >
-            Shop Now
-          </button>
+            <h1
+              class="max-w-2xl text-4xl sm:text-5xl md:text-7xl font-extralight"
+            >
+              Exotic tastes at your doorstep
+            </h1>
+            <span class="mt-6 mb-8 text-lg md:text-xl font-medium"
+              >We supply highly quality organic products</span
+            >
+            <button
+              class="btn bg-primary text-white border-none hover:bg-red-600"
+            >
+              Shop Now
+            </button>
+          </div>
         </div>
       </section>
       <section
-        class="hidden sm:block max-w-6xl mx-auto px-3.5 lg:px-10 -translate-y-32"
+        class="hidden sm:block max-w-6xl mx-auto px-3.5 lg:px-10 sm:-translate-y-16 md:-translate-y-32"
       >
-        <div class="grid grid-cols-5 gap-5 bg-white py-10 shadow-lg rounded-lg">
+        <div
+          class="grid grid-cols-5 gap-5 bg-white py-10 shadow-lg rounded-lg mx-10 xl:mx-0"
+        >
           <div class="text-center">
             <img class="mx-auto" src="./images/fruit1.png" alt="" />
             <h2>Grape</h2>
@@ -182,7 +189,7 @@
           </div>
         </div>
       </section>
-      <section class="xl:container mx-auto px-3.5 lg:px-10 my-5 sm:my-7">
+      <section class="xl:container mx-auto px-3.5 lg:px-10 my-5 sm:my-20">
         <div
           class="flex flex-col sm:flex-row gap-3 justify-between items-center"
         >
@@ -472,7 +479,155 @@
           </button>
         </div>
       </section>
+      <section class="xl:container mx-auto px-3.5 lg:px-10 my-5 sm:my-20">
+        <div
+          class="bg-[url('./images/banner1.png')] relative bg-cover bg-center rounded-lg overflow-hidden"
+        >
+          <div class="absolute bg-black/50 w-full h-full"></div>
+          <div
+            class="relative text-center text-white py-28 max-w-4xl mx-auto px-3.5 md:px-0"
+          >
+            <h2 class="text-4xl md:text-5xl font-extrabold">
+              Meet the team section
+            </h2>
+            <p
+              class="text-base font-medium leading-normal my-5 sm:mt-6 sm:mb-12 max-w-xl mx-auto"
+            >
+              Contrary to popular belief, is not simply random text. It has
+              roots in a piece of classical Latin literature from 45 BC, making
+              it over 2000 years old.
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
+              <div>
+                <img class="mx-auto" src="./images/member1.png" alt="" />
+                <h3 class="my-2 sm:mt-8 sm:mb-2 text-2xl font-bold">
+                  Awlad Hossain
+                </h3>
+                <span class="inline-block mb-4 text-base font-medium"
+                  >Fruits Expert</span
+                >
+                <div class="space-x-2">
+                  <i
+                    class="fa-brands fa-facebook-f bg-primary h-3.5 w-3.5 p-1.5 rounded-full"
+                  ></i>
+                  <i
+                    class="fa-brands fa-twitter bg-primary h-3.5 w-3.5 p-1.5 rounded-full"
+                  ></i>
+                  <i
+                    class="fa-brands fa-linkedin-in bg-primary h-3.5 w-3.5 p-1.5 rounded-full"
+                  ></i>
+                </div>
+              </div>
+              <div>
+                <img class="mx-auto" src="./images/member1.png" alt="" />
+                <h3 class="my-2 sm:mt-8 sm:mb-2 text-2xl font-bold">
+                  Awlad Hossain
+                </h3>
+                <span class="inline-block mb-4 text-base font-medium"
+                  >Fruits Expert</span
+                >
+                <div class="space-x-2">
+                  <i
+                    class="fa-brands fa-facebook-f bg-primary h-3.5 w-3.5 p-1.5 rounded-full"
+                  ></i>
+                  <i
+                    class="fa-brands fa-twitter bg-primary h-3.5 w-3.5 p-1.5 rounded-full"
+                  ></i>
+                  <i
+                    class="fa-brands fa-linkedin-in bg-primary h-3.5 w-3.5 p-1.5 rounded-full"
+                  ></i>
+                </div>
+              </div>
+              <div>
+                <img class="mx-auto" src="./images/member1.png" alt="" />
+                <h3 class="my-2 sm:mt-8 sm:mb-2 text-2xl font-bold">
+                  Awlad Hossain
+                </h3>
+                <span class="inline-block mb-4 text-base font-medium"
+                  >Fruits Expert</span
+                >
+                <div class="space-x-2">
+                  <i
+                    class="fa-brands fa-facebook-f bg-primary h-3.5 w-3.5 p-1.5 rounded-full"
+                  ></i>
+                  <i
+                    class="fa-brands fa-twitter bg-primary h-3.5 w-3.5 p-1.5 rounded-full"
+                  ></i>
+                  <i
+                    class="fa-brands fa-linkedin-in bg-primary h-3.5 w-3.5 p-1.5 rounded-full"
+                  ></i>
+                </div>
+              </div>
+              <div>
+                <img class="mx-auto" src="./images/member1.png" alt="" />
+                <h3 class="my-2 sm:mt-8 sm:mb-2 text-2xl font-bold">
+                  Awlad Hossain
+                </h3>
+                <span class="inline-block mb-4 text-base font-medium"
+                  >Fruits Expert</span
+                >
+                <div class="space-x-2">
+                  <i
+                    class="fa-brands fa-facebook-f bg-primary h-3.5 w-3.5 p-1.5 rounded-full"
+                  ></i>
+                  <i
+                    class="fa-brands fa-twitter bg-primary h-3.5 w-3.5 p-1.5 rounded-full"
+                  ></i>
+                  <i
+                    class="fa-brands fa-linkedin-in bg-primary h-3.5 w-3.5 p-1.5 rounded-full"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="xl:container mx-auto px-3.5 lg:px-10 my-5 sm:my-20">
+        <div class="text-center max-w-2xl mx-auto">
+          <h2
+            class="text-black text-3xl md:text-5xl font-extrabold mb-3 md:mb-6"
+          >
+            Why Choose Us
+          </h2>
+          <p
+            class="text-gray-500 text-sm sm:text-base leading-normal font-medium"
+          >
+            Contrary to popular belief, is not simply random text. It has roots
+            in a piece of classical Latin literature from 45 BC, making it over
+            2000 years old.
+          </p>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer
+      class="footer footer-center py-10 md:py-20 bg-black text-base-content rounded text-white"
+    >
+      <nav>
+        <div class="flex items-center gap-2">
+          <img class="w-10 sm:w-auto" src="./images/logo.png" alt="" />
+          <span class="text-3xl sm:text-4xl font-bold">Fruit Burst</span>
+        </div>
+      </nav>
+      <nav
+        class="grid grid-cols-3 justify-center sm:grid-flow-col gap-5 md:gap-16"
+      >
+        <a class="link link-hover">Home</a>
+        <a class="link link-hover">About Us</a>
+        <a class="link link-hover">Shop</a>
+        <a class="link link-hover">All Fruits</a>
+        <a class="link link-hover">Support</a>
+        <a class="link link-hover">My Account</a>
+      </nav>
+      <nav>
+        <div class="grid grid-flow-col gap-6">
+          <i class="fa-brands fa-facebook-f w-5 h-5"></i>
+          <i class="fa-brands fa-twitter w-5 h-5"></i>
+          <i class="fa-brands fa-linkedin-in w-5 h-5"></i>
+          <i class="fa-brands fa-instagram w-5 h-5"></i>
+          <i class="fa-brands fa-youtube w-5 h-5"></i>
+          <i class="fa-brands fa-apple w-5 h-5"></i>
+        </div>
+      </nav>
+    </footer>
   </body>
 </html>
