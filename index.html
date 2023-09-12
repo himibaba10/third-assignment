@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
 
     <!-- Google Lato Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -137,59 +138,226 @@
       </div>
     </header>
     <main>
+      <!-- Banner section -->
       <section class="xl:container mx-auto px-3.5 lg:px-10 my-5 sm:my-7">
-        <div
-          class="bg-[url('./images/banner1.png')] bg-cover relative bg-center rounded-lg overflow-hidden"
-        >
-          <div class="absolute bg-black/40 w-full h-full"></div>
+        <div class="carousel w-full">
           <div
-            class="relative flex flex-col items-center pt-14 pb-24 md:pt-20 md:pb-52 text-white text-center"
+            id="slide1"
+            class="carousel-item relative w-full min-h-[350px] sm:min-h-[400px] md:min-h-[550px] overflow-hidden rounded-lg"
           >
-            <h1
-              class="max-w-2xl text-4xl sm:text-5xl md:text-7xl font-extralight"
+            <img src="./images/banner1.png" class="w-full object-cover" />
+            <div
+              class="absolute z-10 flex justify-between transform translate-y-1/2 sm:-translate-y-1/2 left-5 right-5 top-1/2"
             >
-              Exotic tastes at your doorstep
-            </h1>
-            <span class="mt-6 mb-8 text-lg md:text-xl font-medium"
-              >We supply highly quality organic products</span
+              <a
+                href="#slide4"
+                class="btn btn-circle bg-gray-900 text-white border-none hover:bg-gray-900/60"
+                >❮</a
+              >
+              <a
+                href="#slide2"
+                class="btn btn-circle bg-gray-900 text-white border-none hover:bg-gray-900/60"
+                >❯</a
+              >
+            </div>
+            <div class="absolute bg-black/40 w-full h-full"></div>
+            <div
+              class="absolute w-full h-full flex flex-col items-center pt-14 pb-24 md:pt-20 md:pb-52 text-white text-center"
             >
-            <button
-              class="btn bg-primary text-white border-none hover:bg-red-600"
+              <h1
+                class="max-w-2xl text-4xl sm:text-5xl md:text-7xl font-extralight"
+              >
+                Exotic tastes at your doorstep
+              </h1>
+              <span class="mt-6 mb-8 text-lg md:text-xl font-medium"
+                >We supply highly quality organic products</span
+              >
+              <button
+                class="btn bg-primary text-white border-none hover:bg-red-600"
+              >
+                Shop Now
+              </button>
+            </div>
+          </div>
+          <div
+            id="slide2"
+            class="carousel-item relative w-full min-h-[350px] sm:min-h-[400px] md:min-h-[550px] overflow-hidden rounded-lg"
+          >
+            <img src="./images/banner2.png" class="w-full object-cover" />
+            <div
+              class="absolute z-10 flex justify-between transform translate-y-1/2 sm:-translate-y-1/2 left-5 right-5 top-1/2"
             >
-              Shop Now
-            </button>
+              <a
+                href="#slide1"
+                class="btn btn-circle bg-gray-900 text-white border-none hover:bg-gray-900/60"
+                >❮</a
+              >
+              <a
+                href="#slide3"
+                class="btn btn-circle bg-gray-900 text-white border-none hover:bg-gray-900/60"
+                >❯</a
+              >
+            </div>
+            <div class="absolute bg-black/40 w-full h-full"></div>
+            <div
+              class="absolute w-full h-full flex flex-col items-center pt-14 pb-24 md:pt-20 md:pb-52 text-white text-center"
+            >
+              <h1
+                class="max-w-2xl text-4xl sm:text-5xl md:text-7xl font-extralight"
+              >
+                Exotic tastes at your doorstep
+              </h1>
+              <span class="mt-6 mb-8 text-lg md:text-xl font-medium"
+                >We supply highly quality organic products</span
+              >
+              <button
+                class="btn bg-primary text-white border-none hover:bg-red-600"
+              >
+                Shop Now
+              </button>
+            </div>
+          </div>
+          <div
+            id="slide3"
+            class="carousel-item relative w-full min-h-[350px] sm:min-h-[400px] md:min-h-[550px] overflow-hidden rounded-lg"
+          >
+            <img src="./images/banner3.png" class="w-full object-cover" />
+            <div
+              class="absolute z-10 flex justify-between transform translate-y-1/2 sm:-translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a
+                href="#slide2"
+                class="btn btn-circle bg-gray-900 text-white border-none hover:bg-gray-900/60"
+                >❮</a
+              >
+              <a
+                href="#slide4"
+                class="btn btn-circle bg-gray-900 text-white border-none hover:bg-gray-900/60"
+                >❯</a
+              >
+            </div>
+            <div class="absolute bg-black/40 w-full h-full"></div>
+            <div
+              class="absolute w-full h-full flex flex-col items-center pt-14 pb-24 md:pt-20 md:pb-52 text-white text-center"
+            >
+              <h1
+                class="max-w-2xl text-4xl sm:text-5xl md:text-7xl font-extralight"
+              >
+                Exotic tastes at your doorstep
+              </h1>
+              <span class="mt-6 mb-8 text-lg md:text-xl font-medium"
+                >We supply highly quality organic products</span
+              >
+              <button
+                class="btn bg-primary text-white border-none hover:bg-red-600"
+              >
+                Shop Now
+              </button>
+            </div>
+          </div>
+          <div
+            id="slide4"
+            class="carousel-item relative w-full min-h-[350px] sm:min-h-[400px] md:min-h-[550px] overflow-hidden rounded-lg"
+          >
+            <img src="./images/banner4.png" class="w-full object-cover" />
+            <div
+              class="absolute z-10 flex justify-between transform translate-y-1/2 sm:-translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a
+                href="#slide3"
+                class="btn btn-circle bg-gray-900 text-white border-none hover:bg-gray-900/60"
+                >❮</a
+              >
+              <a
+                href="#slide1"
+                class="btn btn-circle bg-gray-900 text-white border-none hover:bg-gray-900/60"
+                >❯</a
+              >
+            </div>
+            <div class="absolute bg-black/40 w-full h-full"></div>
+            <div
+              class="absolute w-full h-full flex flex-col items-center pt-14 pb-24 md:pt-20 md:pb-52 text-white text-center"
+            >
+              <h1
+                class="max-w-2xl text-4xl sm:text-5xl md:text-7xl font-extralight"
+              >
+                Exotic tastes at your doorstep
+              </h1>
+              <span class="mt-6 mb-8 text-lg md:text-xl font-medium"
+                >We supply highly quality organic products</span
+              >
+              <button
+                class="btn bg-primary text-white border-none hover:bg-red-600"
+              >
+                Shop Now
+              </button>
+            </div>
           </div>
         </div>
       </section>
+
+      <!-- Banner Overlay section -->
       <section
-        class="hidden sm:block max-w-6xl mx-auto px-3.5 lg:px-10 sm:-translate-y-16 md:-translate-y-32"
+        class="hidden sm:block max-w-6xl mx-auto px-3.5 lg:px-10 sm:-translate-y-16 md:-translate-y-32 -mb-28"
       >
         <div
           class="grid grid-cols-5 gap-5 bg-white py-10 shadow-lg rounded-lg mx-10 xl:mx-0"
         >
           <div class="text-center">
-            <img class="mx-auto" src="./images/fruit1.png" alt="" />
-            <h2>Grape</h2>
+            <img
+              class="h-20 md:h-auto mx-auto"
+              src="./images/fruit1.png"
+              alt=""
+            />
+            <h2 class="text-gray-800 text-base md:text-xl font-medium">
+              Grape
+            </h2>
           </div>
           <div class="text-center">
-            <img class="mx-auto" src="./images/fruit1.png" alt="" />
-            <h2>Grape</h2>
+            <img
+              class="h-20 md:h-auto mx-auto"
+              src="./images/fruit2.png"
+              alt=""
+            />
+            <h2 class="text-gray-800 text-base md:text-xl font-medium">
+              Orange
+            </h2>
           </div>
           <div class="text-center">
-            <img class="mx-auto" src="./images/fruit1.png" alt="" />
-            <h2>Grape</h2>
+            <img
+              class="h-20 md:h-auto mx-auto"
+              src="./images/fruit3.png"
+              alt=""
+            />
+            <h2 class="text-gray-800 text-base md:text-xl font-medium">
+              Mango
+            </h2>
           </div>
           <div class="text-center">
-            <img class="mx-auto" src="./images/fruit1.png" alt="" />
-            <h2>Grape</h2>
+            <img
+              class="h-20 md:h-auto mx-auto"
+              src="./images/fruit4.png"
+              alt=""
+            />
+            <h2 class="text-gray-800 text-base md:text-xl font-medium">
+              Strawberry
+            </h2>
           </div>
           <div class="text-center">
-            <img class="mx-auto" src="./images/fruit1.png" alt="" />
-            <h2>Grape</h2>
+            <img
+              class="h-20 md:h-auto mx-auto"
+              src="./images/fruit5.png"
+              alt=""
+            />
+            <h2 class="text-gray-800 text-base md:text-xl font-medium">
+              Pomegranate
+            </h2>
           </div>
         </div>
       </section>
-      <section class="xl:container mx-auto px-3.5 lg:px-10 my-5 sm:my-20">
+
+      <!-- Deal of the day section -->
+      <section class="xl:container mx-auto px-3.5 lg:px-10 my-5 mb-16 sm:my-20">
         <div
           class="flex flex-col sm:flex-row gap-3 justify-between items-center"
         >
@@ -311,12 +479,12 @@
             <div
               class="p-2 sm:py-5 sm:px-10 rounded-lg [borderWidth:1px] border-gray-200"
             >
-              <img class="mx-auto" src="./images/fruit6.png" alt="" />
+              <img class="mx-auto" src="./images/fruit7.png" alt="" />
               <span class="text-black text-2xl font-bold mt-8 mb-5 inline-block"
                 >12.90$ - 18.85$</span
               >
               <div class="w-full h-[1px] bg-gray-200"></div>
-              <span class="my-3 text-gray-500 inline-block">Apples</span>
+              <span class="my-3 text-gray-500 inline-block">Orange</span>
               <div class="text-primary mb-2">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -333,8 +501,8 @@
               <dialog id="my_modal_2" class="modal">
                 <div class="modal-box">
                   <div class="max-w-sm mx-auto">
-                    <img class="mx-auto" src="./images/fruit6.png" alt="" />
-                    <h3 class="text-black text-2xl font-bold mt-8">Apples</h3>
+                    <img class="mx-auto" src="./images/fruit7.png" alt="" />
+                    <h3 class="text-black text-2xl font-bold mt-8">Orange</h3>
                     <span class="my-3 text-gray-500 inline-block"
                       >Professional employees are there for you to pick the most
                       amazing and fresh fruits.</span
@@ -366,12 +534,12 @@
             <div
               class="p-2 sm:py-5 sm:px-10 rounded-lg [borderWidth:1px] border-gray-200"
             >
-              <img class="mx-auto" src="./images/fruit6.png" alt="" />
+              <img class="mx-auto" src="./images/fruit8.png" alt="" />
               <span class="text-black text-2xl font-bold mt-8 mb-5 inline-block"
                 >12.90$ - 18.85$</span
               >
               <div class="w-full h-[1px] bg-gray-200"></div>
-              <span class="my-3 text-gray-500 inline-block">Apples</span>
+              <span class="my-3 text-gray-500 inline-block">Dragonfruit</span>
               <div class="text-primary mb-2">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -388,8 +556,10 @@
               <dialog id="my_modal_3" class="modal">
                 <div class="modal-box">
                   <div class="max-w-sm mx-auto">
-                    <img class="mx-auto" src="./images/fruit6.png" alt="" />
-                    <h3 class="text-black text-2xl font-bold mt-8">Apples</h3>
+                    <img class="mx-auto" src="./images/fruit8.png" alt="" />
+                    <h3 class="text-black text-2xl font-bold mt-8">
+                      Dragonfruit
+                    </h3>
                     <span class="my-3 text-gray-500 inline-block"
                       >Professional employees are there for you to pick the most
                       amazing and fresh fruits.</span
@@ -421,12 +591,12 @@
             <div
               class="p-2 sm:py-5 sm:px-10 rounded-lg [borderWidth:1px] border-gray-200"
             >
-              <img class="mx-auto" src="./images/fruit6.png" alt="" />
+              <img class="mx-auto" src="./images/fruit9.png" alt="" />
               <span class="text-black text-2xl font-bold mt-8 mb-5 inline-block"
                 >12.90$ - 18.85$</span
               >
               <div class="w-full h-[1px] bg-gray-200"></div>
-              <span class="my-3 text-gray-500 inline-block">Apples</span>
+              <span class="my-3 text-gray-500 inline-block">Banana</span>
               <div class="text-primary mb-2">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -443,8 +613,8 @@
               <dialog id="my_modal_4" class="modal">
                 <div class="modal-box">
                   <div class="max-w-sm mx-auto">
-                    <img class="mx-auto" src="./images/fruit6.png" alt="" />
-                    <h3 class="text-black text-2xl font-bold mt-8">Apples</h3>
+                    <img class="mx-auto" src="./images/fruit9.png" alt="" />
+                    <h3 class="text-black text-2xl font-bold mt-8">Banana</h3>
                     <span class="my-3 text-gray-500 inline-block"
                       >Professional employees are there for you to pick the most
                       amazing and fresh fruits.</span
@@ -479,17 +649,17 @@
           </button>
         </div>
       </section>
-      <section class="xl:container mx-auto px-3.5 lg:px-10 my-5 sm:my-20">
+
+      <!-- Meet the team section -->
+      <section class="xl:container mx-auto px-3.5 lg:px-10 my-5 mb-12 sm:my-20">
         <div
           class="bg-[url('./images/banner1.png')] relative bg-cover bg-center rounded-lg overflow-hidden"
         >
           <div class="absolute bg-black/50 w-full h-full"></div>
           <div
-            class="relative text-center text-white py-28 max-w-4xl mx-auto px-3.5 md:px-0"
+            class="relative text-center text-white py-12 md:py-28 max-w-4xl mx-auto px-3.5 md:px-0"
           >
-            <h2 class="text-4xl md:text-5xl font-extrabold">
-              Meet the team section
-            </h2>
+            <h2 class="text-4xl md:text-5xl font-extrabold">Meet The Team</h2>
             <p
               class="text-base font-medium leading-normal my-5 sm:mt-6 sm:mb-12 max-w-xl mx-auto"
             >
@@ -519,9 +689,9 @@
                 </div>
               </div>
               <div>
-                <img class="mx-auto" src="./images/member1.png" alt="" />
+                <img class="mx-auto" src="./images/member2.png" alt="" />
                 <h3 class="my-2 sm:mt-8 sm:mb-2 text-2xl font-bold">
-                  Awlad Hossain
+                  Sufiya chowdhury
                 </h3>
                 <span class="inline-block mb-4 text-base font-medium"
                   >Fruits Expert</span
@@ -539,9 +709,9 @@
                 </div>
               </div>
               <div>
-                <img class="mx-auto" src="./images/member1.png" alt="" />
+                <img class="mx-auto" src="./images/member3.png" alt="" />
                 <h3 class="my-2 sm:mt-8 sm:mb-2 text-2xl font-bold">
-                  Awlad Hossain
+                  Belal sayed
                 </h3>
                 <span class="inline-block mb-4 text-base font-medium"
                   >Fruits Expert</span
@@ -559,9 +729,9 @@
                 </div>
               </div>
               <div>
-                <img class="mx-auto" src="./images/member1.png" alt="" />
+                <img class="mx-auto" src="./images/member4.png" alt="" />
                 <h3 class="my-2 sm:mt-8 sm:mb-2 text-2xl font-bold">
-                  Awlad Hossain
+                  Bilkis Akter
                 </h3>
                 <span class="inline-block mb-4 text-base font-medium"
                   >Fruits Expert</span
@@ -582,8 +752,10 @@
           </div>
         </div>
       </section>
+
+      <!-- Why choose us section -->
       <section class="xl:container mx-auto px-3.5 lg:px-10 my-5 sm:my-20">
-        <div class="text-center max-w-2xl mx-auto">
+        <div class="text-center max-w-2xl mx-auto mb-10">
           <h2
             class="text-black text-3xl md:text-5xl font-extrabold mb-3 md:mb-6"
           >
@@ -597,10 +769,163 @@
             2000 years old.
           </p>
         </div>
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 items-center gap-10 md:gap-1 lg:gap-10"
+        >
+          <div class="order-2 md:order-1 space-y-8 md:space-y-5">
+            <div
+              class="flex gap-4 flex-col md:flex-row items-center md:items-start text-center md:text-left"
+            >
+              <div
+                class="w-16 h-16 md:w-10 md:h-10 lg:w-16 lg:h-16 bg-gray-200 flex justify-center items-center rounded-full"
+              >
+                <i class="fa-solid fa-users"></i>
+              </div>
+              <div class="w-3/4">
+                <h3 class="text-black text-xl md:text-2xl font-extrabold">
+                  Dedicated Team
+                </h3>
+                <div
+                  class="w-24 h-[1px] bg-gray-400 mt-3 mb-4 mx-auto md:mx-0"
+                ></div>
+                <p
+                  class="text-gray-500 text-sm sm:text-base leading-normal font-medium"
+                >
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex gap-4 flex-col md:flex-row items-center md:items-start text-center md:text-left"
+            >
+              <div
+                class="w-16 h-16 md:w-10 md:h-10 lg:w-16 lg:h-16 bg-gray-200 flex justify-center items-center rounded-full"
+              >
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="w-3/4">
+                <h3 class="text-black text-xl md:text-2xl font-extrabold">
+                  Fresh is Best
+                </h3>
+                <div
+                  class="w-24 h-[1px] bg-gray-400 mt-3 mb-4 mx-auto md:mx-0"
+                ></div>
+                <p
+                  class="text-gray-500 text-sm sm:text-base leading-normal font-medium"
+                >
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex gap-4 flex-col md:flex-row items-center md:items-start text-center md:text-left"
+            >
+              <div
+                class="w-16 h-16 md:w-10 md:h-10 lg:w-16 lg:h-16 bg-gray-200 flex justify-center items-center rounded-full"
+              >
+                <i class="fa-solid fa-gift"></i>
+              </div>
+              <div class="w-3/4">
+                <h3 class="text-black text-xl md:text-2xl font-extrabold">
+                  Gift Certificate
+                </h3>
+                <div
+                  class="w-24 h-[1px] bg-gray-400 mt-3 mb-4 mx-auto md:mx-0"
+                ></div>
+                <p
+                  class="text-gray-500 text-sm sm:text-base leading-normal font-medium"
+                >
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="order-1 md:order-2">
+            <img
+              class="max-w-sm w-full mx-auto"
+              src="./images/whychoose1.png"
+              alt=""
+            />
+          </div>
+          <div class="order-3 space-y-8 md:space-y-5">
+            <div
+              class="flex gap-4 flex-col md:flex-row-reverse items-center md:items-start text-center md:text-right"
+            >
+              <div
+                class="w-16 h-16 md:w-10 md:h-10 lg:w-16 lg:h-16 bg-gray-200 flex justify-center items-center rounded-full"
+              >
+                <i class="fa-solid fa-boxes-packing"></i>
+              </div>
+              <div class="w-3/4">
+                <h3 class="text-black text-xl md:text-2xl font-extrabold">
+                  Integrated Supplier
+                </h3>
+                <div
+                  class="w-24 h-[1px] bg-gray-400 mt-3 mb-4 mx-auto md:ml-auto md:mr-0"
+                ></div>
+                <p
+                  class="text-gray-500 text-sm sm:text-base leading-normal font-medium"
+                >
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex gap-4 flex-col md:flex-row-reverse items-center md:items-start text-center md:text-right"
+            >
+              <div
+                class="w-16 h-16 md:w-10 md:h-10 lg:w-16 lg:h-16 bg-gray-200 flex justify-center items-center rounded-full"
+              >
+                <i class="fa-solid fa-ice-cream"></i>
+              </div>
+              <div class="w-3/4">
+                <h3 class="text-black text-xl md:text-2xl font-extrabold">
+                  Sustainable practice
+                </h3>
+                <div
+                  class="w-24 h-[1px] bg-gray-400 mt-3 mb-4 mx-auto md:ml-auto md:mr-0"
+                ></div>
+                <p
+                  class="text-gray-500 text-sm sm:text-base leading-normal font-medium"
+                >
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex gap-4 flex-col md:flex-row-reverse items-center md:items-start text-center md:text-right"
+            >
+              <div
+                class="w-16 h-16 md:w-10 md:h-10 lg:w-16 lg:h-16 bg-gray-200 flex justify-center items-center rounded-full"
+              >
+                <i class="fa-regular fa-thumbs-up"></i>
+              </div>
+              <div class="w-3/4">
+                <h3 class="text-black text-xl md:text-2xl font-extrabold">
+                  The Benefits Only
+                </h3>
+                <div
+                  class="w-24 h-[1px] bg-gray-400 mt-3 mb-4 mx-auto md:ml-auto md:mr-0"
+                ></div>
+                <p
+                  class="text-gray-500 text-sm sm:text-base leading-normal font-medium"
+                >
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
     <footer
-      class="footer footer-center py-10 md:py-20 bg-black text-base-content rounded text-white"
+      class="footer footer-center py-10 md:py-20 bg-black text-base-content text-white"
     >
       <nav>
         <div class="flex items-center gap-2">
